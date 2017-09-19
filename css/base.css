@@ -1,0 +1,43 @@
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font: 16px/1.6 'latoregular', sans-serif; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+a {
+  text-decoration: none; }
+
+svg * {
+  fill: currentcolor; }
+
+ul {
+  margin: 0; }
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit; }
+
+h1, h2, h3, h4, h5 {
+  margin: 0; }
+
+form,
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0; }
+
+ul {
+  padding-left: 0; }
+
+li {
+  list-style: none; }
+
+.wrapper {
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto; }
