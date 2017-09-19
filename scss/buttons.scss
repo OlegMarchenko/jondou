@@ -7,4 +7,9 @@
   padding: 8px 16px;
   display: block;
   margin-left: 25px;
+  transition: opacity .2s;
+  &:hover {
+    background: transparent;
+    color: #ff551a;
+  }
 }
