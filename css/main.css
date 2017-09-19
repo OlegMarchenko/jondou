@@ -290,3 +290,93 @@ li {
   .btn-primary:hover {
     background: transparent;
     color: #ff551a; }
+
+.section {
+  padding: 40px 0; }
+
+.section-heading {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.section-heading-title {
+  font-size: 27px;
+  font-family: 'montserratbold', sans-serif;
+  text-transform: uppercase;
+  color: #435061;
+  padding-bottom: 15px; }
+
+.section-heading-description {
+  font-family: 'latoregular', sans-serif;
+  text-align: center;
+  max-width: 1067px;
+  color: #7e8c99;
+  line-height: 30px; }
+
+.section-about-us {
+  padding-top: 80px; }
+
+.section-community-spotlight {
+  background: #eff3f5; }
+  .section-community-spotlight .section-heading-description {
+    max-width: 821px; }
+
+.card-title {
+  font-size: 12px;
+  font-family: 'montserratregular', sans-serif;
+  color: #7e8c99;
+  text-transform: uppercase;
+  padding-bottom: 4px; }
+
+.card-description {
+  font-family: 'montserratbold', sans-serif;
+  font-size: 18px;
+  color: #435061;
+  text-transform: uppercase;
+  line-height: 20px; }
+
+.card-holder {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-top: 69px; }
+
+.card {
+  text-align: center;
+  padding: 0 14px;
+  width: 16.66%;
+  position: relative; }
+  .card:last-child {
+    border-right: none;
+    margin-right: -12px; }
+    .card:last-child::before {
+      content: none; }
+  .card:first-child {
+    margin-left: -10px; }
+  .card::before {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 152px;
+    background-color: #e1e6ec;
+    right: 0;
+    top: -12px; }

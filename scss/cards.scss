@@ -1,0 +1,47 @@
+.card-title {
+  font-size: 12px;
+  font-family: 'montserratregular', sans-serif;
+  color: #7e8c99;
+  text-transform: uppercase;
+  padding-bottom: 4px;
+}
+
+.card-description {
+  font-family: 'montserratbold', sans-serif;
+  font-size: 18px;
+  color: #435061;
+  text-transform: uppercase;
+  line-height: 20px;
+}
+
+.card-holder {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 69px;
+}
+
+.card {
+  text-align: center;
+  padding: 0 14px;
+  width: 16.66%;
+  position: relative;
+  &:last-child {
+    border-right: none;
+    margin-right: -12px;
+    &::before {
+      content: none;
+    }
+  }
+  &:first-child {
+    margin-left: -10px;
+  }
+  &::before {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 152px;
+    background-color: #e1e6ec;
+    right: 0;
+    top: -12px;
+  }
+}

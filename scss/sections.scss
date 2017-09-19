@@ -1,0 +1,40 @@
+.section {
+  padding: 40px 0;
+}
+
+.section-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-heading-top {
+}
+
+.section-heading-title {
+  font-size: 27px;
+  font-family: 'montserratbold', sans-serif;
+  text-transform: uppercase;
+  color: #435061;
+  padding-bottom: 15px;
+}
+
+.section-heading-description {
+  font-family: 'latoregular', sans-serif;
+  text-align: center;
+  max-width: 1067px;
+  color: #7e8c99;
+  line-height: 30px;
+}
+
+.section-about-us {
+  padding-top: 80px;
+}
+
+.section-community-spotlight {
+  background: #eff3f5;
+  .section-heading-description {
+    max-width: 821px;
+  }
+}
