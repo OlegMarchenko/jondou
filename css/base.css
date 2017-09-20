@@ -7,7 +7,7 @@ img {
   max-width: 100%;
   height: auto; }
 
-a {
+a * {
   text-decoration: none; }
 
 svg * {
@@ -38,6 +38,10 @@ li {
   list-style: none; }
 
 .wrapper {
-  overflow: hidden;
   position: relative;
+  margin: 0 auto; }
+
+.container {
+  max-width: 1200px;
+  padding: 0 30px;
   margin: 0 auto; }

@@ -1,5 +1,5 @@
 .section {
-  padding: 40px 0;
+  padding: 80px 0;
 }
 
 .section-heading {
@@ -32,9 +32,133 @@
   padding-top: 80px;
 }
 
+//START SECTION COMMUNITY SPOTLIGHT
+
 .section-community-spotlight {
   background: #eff3f5;
   .section-heading-description {
     max-width: 821px;
+  }
+}
+
+.tab-item {
+  display: inline-block;
+  a {
+    display: block;
+    font-family: 'latoregular', sans-serif;
+    color: #535f6e;
+    padding: 13px 33px;
+    font-size: 16px;
+    transition: opacity .3s;
+    outline: none;
+    background: #fff;
+    &:hover {
+      background: #435061;
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+  &.active a {
+    background-color: #435061;
+    color: #fff;
+  }
+}
+
+#tabs {
+  margin: 33px 0 0 0;
+  font-size: 0;
+}
+
+.about-place {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.tab-slide {
+  width: 48%;
+  padding: 15px;
+  background: #fff;
+  display: inline-block;
+  box-shadow: 0 0 5px rgba(156, 170, 187, 0.35);
+}
+
+.tab-holder {
+  font-size: 0;
+}
+
+.tab-nav {
+  padding-bottom: 57px;
+}
+
+.about-place {
+  padding: 8px 0 0 37px;
+}
+
+//STYLES FOR SLIDER-DOTS
+
+.uk-dotnav {
+  padding: 0 0 28px 0;
+}
+
+.uk-dotnav > * {
+  padding-left: 8px;
+}
+
+.uk-dotnav > * > * {
+  width: 12px;
+  height: 12px;
+  background: #fff;
+}
+
+.uk-dotnav-contrast > .uk-active > * {
+  background: #31a2e1;
+}
+
+//STYLES FOR SECTION-FEATURES-LISTINGS
+
+.section-feature-listings {
+  .section-heading-description {
+    max-width: 821px;
+  }
+}
+.slick-initialized .slick-slide {
+  display: block;
+  font-size: 0 !important;
+}
+.section-feature-listings .slick-slider{
+  overflow: hidden;
+}
+
+.section-feature-listings .section-heading {
+  padding-bottom: 50px;
+}
+//STYLES FOR SLICK-SLIDER
+
+.slick-prev {
+  top: 0;
+  left: 48%;
+  z-index: 1001;
+  width: 30px;
+  height: 30px;
+  &::before {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #31a2e1;
+    border-radius: 50%;
+  }
+}
+
+.slick-next {
+  top: 0;
+  right: 48%;
+  z-index: 1001;
+  width: 30px;
+  height: 30px;
+  &::before {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #858c95;
+    border-radius: 50%;
   }
 }

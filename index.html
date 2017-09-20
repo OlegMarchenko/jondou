@@ -6,6 +6,13 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link rel="stylesheet" href="css/slideshow.min.css">
+    <link rel="stylesheet" href="css/slider.min.css">
+    <link rel="stylesheet" href="css/slidenav.min.css">
+    <link rel="stylesheet" href="css/dotnav.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
     <link rel="stylesheet" href="css/main.css">
     <title>Jon Dou</title>
 </head>
@@ -177,19 +184,367 @@
                 </div>
                 <div class="section-heading-title">Community Spotlight</div>
                 <div class="section-heading-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    tempor arcu non ligula convallis, vel tincidunt ipsum posuere.sollicitudin. Duis iaculis, arcu ut
+                    tempor arcu non ligula convallis, vel tincidunt ipsum posuere.sollicitudin. Duis iaculis, arcu ut
                     hendrerit pharetra, elit augue pulvinar magna
                 </div>
             </div>
             <div class="container">
-
+                <div id="tabs">
+                    <ul class="tab-nav">
+                        <li class="tab-item active"><a href="#tabs-1">Niceville</a></li>
+                        <li class="tab-item"><a href="#tabs-2">Sandestin Resort</a></li>
+                        <li class="tab-item"><a href="#tabs-3">Destin</a></li>
+                        <li class="tab-item"><a href="#tabs-4">Santa Rosa Beach</a></li>
+                        <li class="tab-item"><a href="#tabs-5">Panama City Beach</a></li>
+                        <li class="tab-item"><a href="#tabs-6">Miramar Beach</a></li>
+                    </ul>
+                    <div id="tabs-1">
+                        <div class="tab-holder">
+                            <div class="tab-slide">
+                                <div class="uk-slidenav-position" data-uk-slideshow="{kenburns:'20s', autoplay:true}">
+                                    <ul class="uk-slideshow">
+                                        <li><img src="images/tab-img.jpg" alt=""></li>
+                                        <li><img src="images/tab-img.jpg" alt=""></li>
+                                        <li><img src="images/tab-img.jpg" alt=""></li>
+                                    </ul>
+                                    <ul class="uk-dotnav uk-dotnav-contrast uk-position-bottom uk-flex-center">
+                                        <li data-uk-slideshow-item="0"><a href=""></a></li>
+                                        <li data-uk-slideshow-item="1"><a href=""></a></li>
+                                        <li data-uk-slideshow-item="2"><a href=""></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="about-place">
+                                <div class="title">Fall in Love with NICeville, florida</div>
+                                <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Sed tempor arcu non
+                                    ligula convallis, vel tincidunt ipsum posuere.sollicitudin. Duis iaculis, arcu ut
+                                    hendrerit pharetra, elit augue pulvinar magna
+                                </div>
+                                <div class="tab-description tab-description-first">
+                                    <div class="card-body-left">
+                                        <img src="images/sailing-ship-medium.png" alt="icon">
+                                    </div>
+                                    <div class="card-body-right">
+                                        <div class="card-title-inner">waterfront listings</div>
+                                        <div class="card-description-inner">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Sed tempor
+                                            arcu non ligula convallis, vel tincidunt.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-description tab-description-secondary">
+                                    <div class="card-body-left">
+                                        <img src="images/cottage.png" alt="icon">
+                                    </div>
+                                    <div class="card-body-right">
+                                        <div class="card-title-inner">waterfront listings</div>
+                                        <div class="card-description-inner">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Sed tempor
+                                            arcu non ligula convallis, vel tincidunt.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tabs-2">
+                        <div class="tab-holder">
+                            <div class="tab-slide">
+                                <div class="uk-slidenav-position" data-uk-slideshow="{kenburns:'20s', autoplay:true}">
+                                    <ul class="uk-slideshow">
+                                        <li><img src="images/tab-img.jpg" alt=""></li>
+                                        <li><img src="images/tab-img.jpg" alt=""></li>
+                                        <li><img src="images/tab-img.jpg" alt=""></li>
+                                    </ul>
+                                    <ul class="uk-dotnav uk-dotnav-contrast uk-position-bottom uk-flex-center">
+                                        <li data-uk-slideshow-item="0"><a href=""></a></li>
+                                        <li data-uk-slideshow-item="1"><a href=""></a></li>
+                                        <li data-uk-slideshow-item="2"><a href=""></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="about-place">
+                                <div class="title">Fall in Love with NICeville, florida</div>
+                                <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Sed tempor arcu non
+                                    ligula convallis, vel tincidunt ipsum posuere.sollicitudin. Duis iaculis, arcu ut
+                                    hendrerit pharetra, elit augue pulvinar magna
+                                </div>
+                                <div class="tab-description tab-description-first">
+                                    <div class="card-body-left">
+                                        <img src="images/sailing-ship-medium.png" alt="icon">
+                                    </div>
+                                    <div class="card-body-right">
+                                        <div class="card-title-inner">waterfront listings</div>
+                                        <div class="card-description-inner">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Sed tempor
+                                            arcu non ligula convallis, vel tincidunt.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-description tab-description-secondary">
+                                    <div class="card-body-left">
+                                        <img src="images/cottage.png" alt="icon">
+                                    </div>
+                                    <div class="card-body-right">
+                                        <div class="card-title-inner">waterfront listings</div>
+                                        <div class="card-description-inner">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Sed tempor
+                                            arcu non ligula convallis, vel tincidunt.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tabs-3">
+                        <div class="tab-holder">
+                            <div class="tab-slide">
+                                <div class="uk-slidenav-position" data-uk-slideshow="{kenburns:'20s', autoplay:true}">
+                                    <ul class="uk-slideshow">
+                                        <li><img src="images/tab-img.jpg" alt=""></li>
+                                        <li><img src="images/tab-img.jpg" alt=""></li>
+                                        <li><img src="images/tab-img.jpg" alt=""></li>
+                                    </ul>
+                                    <ul class="uk-dotnav uk-dotnav-contrast uk-position-bottom uk-flex-center">
+                                        <li data-uk-slideshow-item="0"><a href=""></a></li>
+                                        <li data-uk-slideshow-item="1"><a href=""></a></li>
+                                        <li data-uk-slideshow-item="2"><a href=""></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="about-place">
+                                <div class="title">Fall in Love with NICeville, florida</div>
+                                <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Sed tempor arcu non
+                                    ligula convallis, vel tincidunt ipsum posuere.sollicitudin. Duis iaculis, arcu ut
+                                    hendrerit pharetra, elit augue pulvinar magna
+                                </div>
+                                <div class="tab-description tab-description-first">
+                                    <div class="card-body-left">
+                                        <img src="images/sailing-ship-medium.png" alt="icon">
+                                    </div>
+                                    <div class="card-body-right">
+                                        <div class="card-title-inner">waterfront listings</div>
+                                        <div class="card-description-inner">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Sed tempor
+                                            arcu non ligula convallis, vel tincidunt.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-description tab-description-secondary">
+                                    <div class="card-body-left">
+                                        <img src="images/cottage.png" alt="icon">
+                                    </div>
+                                    <div class="card-body-right">
+                                        <div class="card-title-inner">waterfront listings</div>
+                                        <div class="card-description-inner">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Sed tempor
+                                            arcu non ligula convallis, vel tincidunt.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tabs-4">
+                        <div class="tab-holder">
+                            <div class="tab-slide">
+                                <div class="uk-slidenav-position" data-uk-slideshow="{kenburns:'20s', autoplay:true}">
+                                    <ul class="uk-slideshow">
+                                        <li><img src="images/tab-img.jpg" alt=""></li>
+                                        <li><img src="images/tab-img.jpg" alt=""></li>
+                                        <li><img src="images/tab-img.jpg" alt=""></li>
+                                    </ul>
+                                    <ul class="uk-dotnav uk-dotnav-contrast uk-position-bottom uk-flex-center">
+                                        <li data-uk-slideshow-item="0"><a href=""></a></li>
+                                        <li data-uk-slideshow-item="1"><a href=""></a></li>
+                                        <li data-uk-slideshow-item="2"><a href=""></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="about-place">
+                                <div class="title">Fall in Love with NICeville, florida</div>
+                                <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Sed tempor arcu non
+                                    ligula convallis, vel tincidunt ipsum posuere.sollicitudin. Duis iaculis, arcu ut
+                                    hendrerit pharetra, elit augue pulvinar magna
+                                </div>
+                                <div class="tab-description tab-description-first">
+                                    <div class="card-body-left">
+                                        <img src="images/sailing-ship-medium.png" alt="icon">
+                                    </div>
+                                    <div class="card-body-right">
+                                        <div class="card-title-inner">waterfront listings</div>
+                                        <div class="card-description-inner">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Sed tempor
+                                            arcu non ligula convallis, vel tincidunt.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-description tab-description-secondary">
+                                    <div class="card-body-left">
+                                        <img src="images/cottage.png" alt="icon">
+                                    </div>
+                                    <div class="card-body-right">
+                                        <div class="card-title-inner">waterfront listings</div>
+                                        <div class="card-description-inner">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Sed tempor
+                                            arcu non ligula convallis, vel tincidunt.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tabs-5">
+                        <div class="tab-holder">
+                            <div class="tab-slide">
+                                <div class="uk-slidenav-position" data-uk-slideshow="{kenburns:'20s', autoplay:true}">
+                                    <ul class="uk-slideshow">
+                                        <li><img src="images/tab-img.jpg" alt=""></li>
+                                        <li><img src="images/tab-img.jpg" alt=""></li>
+                                        <li><img src="images/tab-img.jpg" alt=""></li>
+                                    </ul>
+                                    <ul class="uk-dotnav uk-dotnav-contrast uk-position-bottom uk-flex-center">
+                                        <li data-uk-slideshow-item="0"><a href=""></a></li>
+                                        <li data-uk-slideshow-item="1"><a href=""></a></li>
+                                        <li data-uk-slideshow-item="2"><a href=""></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="about-place">
+                                <div class="title">Fall in Love with NICeville, florida</div>
+                                <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Sed tempor arcu non
+                                    ligula convallis, vel tincidunt ipsum posuere.sollicitudin. Duis iaculis, arcu ut
+                                    hendrerit pharetra, elit augue pulvinar magna
+                                </div>
+                                <div class="tab-description tab-description-first">
+                                    <div class="card-body-left">
+                                        <img src="images/sailing-ship-medium.png" alt="icon">
+                                    </div>
+                                    <div class="card-body-right">
+                                        <div class="card-title-inner">waterfront listings</div>
+                                        <div class="card-description-inner">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Sed tempor
+                                            arcu non ligula convallis, vel tincidunt.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-description tab-description-secondary">
+                                    <div class="card-body-left">
+                                        <img src="images/cottage.png" alt="icon">
+                                    </div>
+                                    <div class="card-body-right">
+                                        <div class="card-title-inner">waterfront listings</div>
+                                        <div class="card-description-inner">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Sed tempor
+                                            arcu non ligula convallis, vel tincidunt.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tabs-6">
+                        <div class="tab-holder">
+                            <div class="tab-slide">
+                                <div class="uk-slidenav-position" data-uk-slideshow="{kenburns:'20s', autoplay:true}">
+                                    <ul class="uk-slideshow">
+                                        <li><img src="images/tab-img.jpg" alt=""></li>
+                                        <li><img src="images/tab-img.jpg" alt=""></li>
+                                        <li><img src="images/tab-img.jpg" alt=""></li>
+                                    </ul>
+                                    <ul class="uk-dotnav uk-dotnav-contrast uk-position-bottom uk-flex-center">
+                                        <li data-uk-slideshow-item="0"><a href=""></a></li>
+                                        <li data-uk-slideshow-item="1"><a href=""></a></li>
+                                        <li data-uk-slideshow-item="2"><a href=""></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="about-place">
+                                <div class="title">Fall in Love with NICeville, florida</div>
+                                <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Sed tempor arcu non
+                                    ligula convallis, vel tincidunt ipsum posuere.sollicitudin. Duis iaculis, arcu ut
+                                    hendrerit pharetra, elit augue pulvinar magna
+                                </div>
+                                <div class="tab-description tab-description-first">
+                                    <div class="card-body-left">
+                                        <img src="images/sailing-ship-medium.png" alt="icon">
+                                    </div>
+                                    <div class="card-body-right">
+                                        <div class="card-title-inner">waterfront listings</div>
+                                        <div class="card-description-inner">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Sed tempor
+                                            arcu non ligula convallis, vel tincidunt.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-description tab-description-secondary">
+                                    <div class="card-body-left">
+                                        <img src="images/cottage.png" alt="icon">
+                                    </div>
+                                    <div class="card-body-right">
+                                        <div class="card-title-inner">waterfront listings</div>
+                                        <div class="card-description-inner">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit. Sed tempor
+                                            arcu non ligula convallis, vel tincidunt.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--START SECTION-FEATURES-LISTINGS-->
+        <div class="section section-feature-listings">
+            <div class="section-heading">
+                <div class="section-heading-top">
+                    <img src="images/localisation-icon.png" alt="location-icon">
+                </div>
+                <div class="section-heading-title">featured listings</div>
+                <div class="section-heading-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    tempor arcu non ligula convallis, vel tincidunt ipsum posuere.sollicitudin. Duis iaculis, arcu ut
+                    hendrerit pharetra, elit augue pulvinar magna
+                </div>
+            </div>
+            <div class="sl-slider">
+                <div><img src="images/img1.jpg" alt=""></div>
+                <div><img src="images/img2.jpg" alt=""></div>
+                <div><img src="images/img3.jpg" alt=""></div>
+                <div><img src="images/img4.jpg" alt=""></div>
+                <div><img src="images/img5.jpg" alt=""></div>
+                <div><img src="images/img6.jpg" alt=""></div>
+                <div><img src="images/img7.jpg" alt=""></div>
+                <div><img src="images/img8.jpg" alt=""></div>
+                <div><img src="images/img9.jpg" alt=""></div>
+                <div><img src="images/img10.jpg" alt=""></div>
+                <div><img src="images/img1.jpg" alt=""></div>
+                <div><img src="images/img2.jpg" alt=""></div>
+                <div><img src="images/img3.jpg" alt=""></div>
+                <div><img src="images/img4.jpg" alt=""></div>
+                <div><img src="images/img5.jpg" alt=""></div>
+                <div><img src="images/img6.jpg" alt=""></div>
+                <div><img src="images/img7.jpg" alt=""></div>
+                <div><img src="images/img8.jpg" alt=""></div>
+                <div><img src="images/img9.jpg" alt=""></div>
+                <div><img src="images/img10.jpg" alt=""></div>
             </div>
         </div>
     </main>
 </div>
 
 <script src="js/jquery-3.2.1.min.js"></script>
-<script src="js/core.js"></script>
-<script src="js/parallax.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/uikit.min.js"></script>
+<script src="js/slideshow.min.js"></script>
+<script src="js/slider.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/common.js"></script>
 </body>
 </html>
