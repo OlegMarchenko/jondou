@@ -7,12 +7,12 @@
   padding: 8px 16px;
   display: block;
   margin-left: 25px;
-  transition: opacity .2s;
-  &:hover {
+  -webkit-transition: opacity .2s;
+  -o-transition: opacity .2s;
+  transition: opacity .2s; }
+  .btn-primary:hover {
     background: transparent;
-    color: #ff551a;
-  }
-}
+    color: #ff551a; }
 
 .btn-blog {
   text-transform: uppercase;
@@ -23,5 +23,4 @@
   padding: 15px 59px;
   display: inline-block;
   letter-spacing: 0.2px;
-  margin-top: 10px;
-}
+  margin-top: 10px; }

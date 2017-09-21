@@ -277,10 +277,12 @@
 .right-block {
   display: inline-block;
 }
+
 .left-block {
   max-width: 458px;
   vertical-align: top;
 }
+
 .right-block {
   max-width: 652px;
   padding-left: 30px;
@@ -318,7 +320,7 @@
   }
 }
 
-.pagination  {
+.pagination {
   li {
     display: inline-block;
     margin-right: 2px;
@@ -349,4 +351,104 @@
   .title-place {
     padding-bottom: 5px;
   }
+}
+
+//STYLES FOR SECTION-BLOG
+
+.section-blog {
+  background: #d8f1ff;
+}
+
+.left-blog {
+  position: relative;
+  max-width: 375px;
+  display: inline-block;
+  &::before {
+    position: absolute;
+    content: '';
+    right: 0;
+    left: -9999px;
+    height: 100%;
+    background: #31a2e1;
+  }
+}
+
+.right-blog {
+  background: #d8f1ff;
+}
+
+.title-section-blog {
+  font-size: 18px;
+  font-family: 'montserratbold', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 22px;
+}
+
+.blog-title,
+.blog-description{
+  color: #fff;
+}
+
+.blog-title {
+  font-family: 'latobold', sans-serif;
+  padding-bottom: 2px;
+  position: relative;
+  &::before {
+    position: absolute;
+    content: '';
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    top: 3px;
+    right: -40px;
+    cursor: pointer;
+  }
+  &::after {
+    position: absolute;
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    transform: rotate(-45deg);
+    top: 8px;
+    right: -33px;
+    cursor: pointer;
+  }
+}
+.blog-description {
+  font-family: 'latoregular', sans-serif;
+  line-height: 1.85;
+}
+
+.blog-item {
+  max-width: 293px;
+  padding-bottom: 33px;
+}
+
+.holder-left-blog {
+  position: relative;
+  display: inline-block;
+  padding: 60px 57px 50px 0;
+}
+
+.right-blog {
+  display: inline-block;
+  vertical-align: top;
+  padding: 60px 0 50px 38px;
+  max-width: 765px;
+  .title-section-blog {
+    color: #435061;
+  }
+}
+
+.right-blog-items {
+  font-size: 0;
+  padding-bottom: 40px;
+}
+
+.holder-section-blog {
+  display: flex;
 }
