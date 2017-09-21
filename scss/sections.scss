@@ -152,12 +152,19 @@
     left: 10px;
     transform: rotate(45deg);
   }
+  &:hover {
+    border: 2px solid #858c95;
+    &::before {
+      border-left: 1px solid #858c95;
+      border-bottom: 1px solid #858c95;
+    }
+  }
 }
 
 .slick-next {
   width: 30px;
   height: 30px;
-  border: 2px solid #858c95;
+  border: 2px solid #31a2e1;
   border-radius: 50%;
   right: 50%;
   &::before {
@@ -165,11 +172,18 @@
     position: absolute;
     width: 10px;
     height: 10px;
-    border-right: 1px solid #858c95;
-    border-bottom: 1px solid #858c95;
+    border-right: 1px solid #31a2e1;
+    border-bottom: 1px solid #31a2e1;
     top: 8px;
     right: 10px;
     transform: rotate(-45deg);
+  }
+  &:hover {
+    border: 2px solid #858c95;
+    &::before {
+      border-right: 1px solid #858c95;
+      border-bottom: 1px solid #858c95;
+    }
   }
 }
 
@@ -242,5 +256,97 @@
   transition: opacity .2s;
   &:hover {
     opacity: .8;
+  }
+}
+
+//STYLES FOR SECTION-ATTRACTIONS
+
+.section-attractions {
+  padding-top: 0;
+  .section-heading-description {
+    max-width: 821px;
+  }
+}
+
+#map {
+  width: 652px;
+  height: 577px;
+}
+
+.left-block,
+.right-block {
+  display: inline-block;
+}
+.left-block {
+  max-width: 458px;
+  vertical-align: top;
+}
+.right-block {
+  max-width: 652px;
+  padding-left: 30px;
+}
+
+.holder-attractions {
+  padding-top: 65px;
+}
+
+.title-place {
+  font-family: 'montserratbold', sans-serif;
+  text-transform: uppercase;
+  color: #435061;
+  font-size: 16px;
+  padding-bottom: 11px;
+  letter-spacing: -0.3px;
+}
+
+.description-place {
+  font-family: 'latoregular', sans-serif;
+  font-size: 16px;
+  color: #7e8c99;
+  line-height: 1.8;
+}
+
+.active-place > .title-place {
+  color: #31a2e1;
+  padding-bottom: 20px;
+}
+
+.attraction-place {
+  padding-bottom: 40px;
+  &.active-place {
+    padding-bottom: 44px;
+  }
+}
+
+.pagination  {
+  li {
+    display: inline-block;
+    margin-right: 2px;
+  }
+  a {
+    display: block;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #2ea3e2;
+    border-radius: 50%;
+    color: #2ea3e2;
+    text-align: center;
+    transition: opacity .3s;
+    &:hover {
+      opacity: .8;
+    }
+  }
+  .active a {
+    background: #2ea3e2;
+    color: #fff;
+  }
+}
+
+.unactive-place {
+  .description-place {
+    line-height: 1.7;
+  }
+  .title-place {
+    padding-bottom: 5px;
   }
 }
