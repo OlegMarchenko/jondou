@@ -23,4 +23,24 @@
   padding: 15px 59px;
   display: inline-block;
   letter-spacing: 0.2px;
-  margin-top: 10px; }
+  margin-top: 10px;
+  -webkit-transition: .2s;
+  -o-transition: .2s;
+  transition: .2s; }
+  .btn-blog:hover {
+    background: #fff;
+    color: #51c1ff; }
+
+.btn-message {
+  text-transform: uppercase;
+  color: #0e90d9;
+  font-family: 'montserratbold', sans-serif;
+  font-size: 14px;
+  background: #fff;
+  margin: 14px 0 22px 0;
+  display: block;
+  text-align: center;
+  padding: 9px 20px;
+  letter-spacing: -0.5px; }
+  .btn-message:hover {
+    color: #0e90d9; }

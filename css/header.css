@@ -33,14 +33,15 @@
     .user-list li:last-child a {
       margin-right: 0;
       padding: 15px 14px; }
-    .user-list li a {
-      padding: 15px 22px; }
   .user-list a {
     display: block;
     font-family: 'montserratregular', sans-serif;
     font-size: 12px;
     color: #7e8c99;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    padding: 15px 22px; }
+    .user-list a:hover {
+      color: #ff551a; }
 
 .phone-number {
   background: url("../images/phone.png") center left no-repeat;
@@ -178,3 +179,10 @@
   background-color: #fff; }
   .dropdown li {
     border: none; }
+
+.logo {
+  padding-bottom: 10px; }
+
+.header {
+  position: relative;
+  z-index: 2000; }

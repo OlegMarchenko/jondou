@@ -12,6 +12,10 @@ $(document).ready(function () {
         // autoplay: true
     });
 
+    $('.slider-opinion').slick({
+        slidesToScroll: 1
+    });
+
     // When the window has finished loading create our google map below
     google.maps.event.addDomListener(window, 'load', init);
 

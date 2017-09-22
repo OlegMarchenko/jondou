@@ -122,7 +122,7 @@
 
 .slick-initialized .slick-slide {
   display: block;
-  font-size: 0 !important;
+  margin-bottom: -4px;
 }
 
 .section-feature-listings .slick-slider {
@@ -135,7 +135,7 @@
 
 //STYLES FOR SLICK-SLIDER
 
-.slick-prev {
+.section-feature-listings .slick-prev {
   width: 30px;
   height: 30px;
   border: 2px solid #31a2e1;
@@ -161,7 +161,7 @@
   }
 }
 
-.slick-next {
+.section-feature-listings .slick-next {
   width: 30px;
   height: 30px;
   border: 2px solid #31a2e1;
@@ -187,11 +187,11 @@
   }
 }
 
-.holder-dots {
+.section-feature-listings .holder-dots {
   position: relative;
 }
 
-.appendArrows {
+.section-feature-listings .appendArrows {
   position: absolute;
   top: -28px;
   width: 100%;
@@ -201,7 +201,7 @@
 
 .slider-item {
   position: relative;
-  margin-bottom: -1px;
+  margin-bottom: -9px;
   &:hover .hover-box {
     display: block;
     opacity: 1;
@@ -386,7 +386,7 @@
 }
 
 .blog-title,
-.blog-description{
+.blog-description {
   color: #fff;
 }
 
@@ -418,6 +418,7 @@
     cursor: pointer;
   }
 }
+
 .blog-description {
   font-family: 'latoregular', sans-serif;
   line-height: 1.85;
@@ -452,3 +453,351 @@
 .holder-section-blog {
   display: flex;
 }
+
+//STYLRS-FOR SECTION-REALTOR
+
+.section-realtor {
+  background: url("../images/footer-bg.jpg") center center no-repeat;
+  background-size: cover;
+  padding: 135px 0;
+}
+
+.realtop-content {
+  background: #435061;
+  position: relative;
+  &::before {
+    position: absolute;
+    content: '';
+    right: 100%;
+    left: -9999px;
+    height: 100%;
+    background: #435061;
+  }
+}
+
+.holder-section-realtor {
+  display: flex;
+}
+
+.substrate-block {
+  width: 100%;
+}
+
+.about-realtor {
+  padding: 45px 35px 0 0;
+}
+
+.title-section-blog {
+  text-transform: uppercase;
+  font-family: 'montserratbold', sans-serif;
+  color: #fff;
+  font-size: 18px;
+}
+
+.our-realtor {
+  width: 375px;
+  min-width: 375px;
+  color: #fff;
+  background: #31a2e1;
+  padding: 45px 37px 16px 37px;
+}
+
+.about-brokers {
+  background: #333d4a;
+  color: #fff;
+  padding: 10px 28px 1px 10px;
+  font-size: 14px;
+}
+
+.contacts {
+  padding: 37px 0 29px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-phone {
+  display: block;
+  font-size: 14px;
+  color: #a5b4c7;
+  text-align: center;
+  transition: .2s;
+  &:hover {
+    color: #fff;
+  }
+  span {
+    color: #fff;
+  }
+}
+
+.footer-logo {
+  padding-bottom: 18px;
+}
+
+.right-block-contacts {
+  padding-left: 31px;
+  border-left: 1px solid #505d6f;
+  padding-bottom: 48px;
+}
+
+.left-block-contacts {
+  padding-right: 31px;
+}
+
+.socials-title {
+  color: #fff;
+  font-size: 14px;
+  padding-bottom: 37px;
+}
+
+.socials {
+  a {
+    display: block;
+    background: url("../images/sprite.png") no-repeat;
+    width: 31px;
+    height: 31px;
+    text-indent: -9999px;
+    overflow: hidden;
+    transition: opacity .2s;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  li {
+    display: inline-block;
+    padding: 0 4px;
+  }
+  ul {
+    margin: 0 -4px;
+  }
+}
+
+.socials a.fb {
+  background-position: 0 0;
+}
+
+.socials a.in {
+  background-position: -42px 0;
+}
+
+.socials a.twitter {
+  background-position: -86px 0;
+}
+
+.socials a.youtube {
+  background-position: -128px 0;
+}
+
+.socials a.wp {
+  background-position: -172px 0;
+}
+
+.socials a.be {
+  background-position: -214px 0;
+}
+
+.socials a.dot {
+  background-position: -258px 0;
+}
+
+.socials a.pxs {
+  background-position: -301px 0;
+}
+
+.name-realtor {
+  font-size: 18px;
+  font-family: 'open_sansbold', sans-serif;
+  text-transform: uppercase;
+  span {
+    font-family: 'open_sansregular', sans-serif;
+  }
+}
+
+.prof-realto {
+  color: #c3eaff;
+  font-size: 14px;
+}
+
+.mail-realtor,
+.phone-realtor {
+  font-size: 14px;
+  transition: .2s;
+  color: #fff;
+  &:hover {
+    color: #c3eaff;
+  }
+}
+
+.title-opinion {
+  font-family: 'montserratbold', sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding-bottom: 8px;
+}
+
+.description-opinion {
+  color: #b1e2ff;
+  font-size: 14px;
+  line-height: 1.76;
+  p {
+    margin-bottom: 29px;
+  }
+}
+
+.card-realtor {
+  display: flex;
+  padding-bottom: 29px;
+}
+
+.card-left-realtor {
+  min-width: 98px;
+  width: 98px;
+}
+
+.card-right-realtor {
+  padding-left: 16px;
+}
+
+.slider-opinion {
+  background: #0e90d9;
+  padding: 5px 17px 19px 16px;
+  margin-bottom: 2px;
+  .slick-prev,
+  .slick-next {
+    bottom: 13px;
+    top: auto;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border-radius: 50%;
+  }
+
+  .slick-next {
+    right: 28px;
+    &::before {
+      content: '';
+      position: absolute;
+      width: 7px;
+      height: 7px;
+      border-right: 2px solid #0e90d9;
+      border-bottom: 2px solid #0e90d9;
+      transform: rotate(-45deg);
+      top: 3px;
+      right: 5px;
+    }
+  }
+  .slick-prev {
+    left: auto;
+    right: 46px;
+    z-index: 1002;
+    &::before {
+      content: '';
+      position: absolute;
+      width: 7px;
+      height: 7px;
+      border-left: 2px solid #0e90d9;
+      border-bottom: 2px solid #0e90d9;
+      transform: rotate(45deg);
+      top: 3px;
+      left: 5px;
+    }
+  }
+}
+
+.companies {
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright {
+  padding-top: 30px;
+  text-align: right;
+  p {
+    font-size: 14px;
+    font-family: 'open_sansregular', sans-serif;
+    color: #e4e9ec;
+  }
+}
+
+//STYLES FOR MAIN-SEARCH
+
+.section-search {
+  position: relative;
+}
+
+.search-area {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 1140px;
+  background: #31a2e1;
+  opacity: 0.81;
+  box-shadow: 0 5px 15px rgba(8, 9, 9, 0.5), inset 0 -5px 0 rgba(8, 9, 9, 0.2);
+  padding: 30px 40px 31px 36px;
+  border-radius: 10px;
+  label {
+    background: #435061;
+    color: #fff;
+    font-family: 'open_sansbold', sans-serif;
+    font-size: 14px;
+    text-shadow: 0 -1px 1px rgba(248, 248, 248, 0.85);
+    text-transform: uppercase;
+    width: 135px;
+    max-width: 135px;
+    padding: 11px 13px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    display: inline-block;
+    cursor: pointer;
+
+  }
+  input[type="search"] {
+    width: 100%;
+    background-color: #435061;
+    opacity: 0.5;
+    box-shadow: 0 3px 4px #000000, inset 0 0 2px rgba(0, 0, 0, 0.27);
+    border: 1px solid #435061;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'open_sansregular', sans-serif;
+    text-transform: uppercase;
+    padding: 12px 15px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    max-width: 662px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    z-index: 2;
+  }
+  input[type="submit"] {
+    font-family: 'open_sanssemibold', sans-serif;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.3);
+    letter-spacing: 0.64px;
+    color: #fff;
+    background: #ff551a;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2), inset 0 0 2px rgba(0, 0, 0, 0.27);
+    border: none;
+    margin-left: 23px;
+    border-radius: 3px;
+    padding: 11px 28px;
+    max-width: 244px;
+    font-size: 16px;
+    display: inline-block;
+    cursor: pointer;
+  }
+}
+
+input::-webkit-input-placeholder {
+  position: absolute;
+  color: #fff;
+  font-family: 'open_sansregular', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.56px;
+}
+
+.form-holder {
+  font-size: 0;
+}
+
